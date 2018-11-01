@@ -5,7 +5,7 @@
         :to="{ name: 'home.index' }"
         class="navbar-brand"
       >
-        Vue 2 Boilerplate
+        Vue JS Boilerplate
       </router-link>
 
       <button
