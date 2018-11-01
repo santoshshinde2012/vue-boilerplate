@@ -57,7 +57,7 @@
         </a>
       </div>
       <div slot="footer">
-         Boilerplate
+        Boilerplate
       </div>
     </v-card>
   </v-layout>

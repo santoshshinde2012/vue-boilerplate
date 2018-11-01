@@ -23,9 +23,9 @@ export const find = ({ commit }) => {
    *  });
    */
   const account = {
-    first_name: 'John',
-    last_name: 'Doe',
-    email: 'jonh@doe.com',
+    first_name: 'Santosh',
+    last_name: 'Shinde',
+    email: 'santosh@santosh.com',
   };
 
   commit(types.FIND, Transformer.fetch(account));

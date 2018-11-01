@@ -35,7 +35,7 @@
         </table>
       </div>
       <div slot="footer">
-        Made with love by Vivid Web
+        Boilerplate
       </div>
     </v-card>
   </v-layout>
