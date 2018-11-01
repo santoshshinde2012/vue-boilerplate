@@ -1,13 +1,15 @@
 {
   "name": "vue-boilerplate",
   "version": "0.0.0",
+  "wst": "/dist/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test": "vue-cli-service test",
     "e2e": "vue-cli-service e2e",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "deploy-vue": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -34,6 +36,7 @@
     "lint-staged": "^7.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
+    "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.5.13"
   },
   "browserslist": [
